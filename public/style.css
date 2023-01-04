@@ -1,0 +1,49 @@
+.main{
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    left: 50%;
+    width: 40%;
+    background-color: rgb(51, 58, 72);
+}
+p{
+    text-align: center;
+    color: rgb(137, 252, 178);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding: 10px 20px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(33, 38, 49);
+}
+hr{
+    margin: 2% 5%;
+}
+button{
+    display: block;
+    margin: auto auto 30px;
+    border: none;
+    background-color: rgb(137, 252, 178);
+    background-image: url('/images/icon-dice.svg');
+    background-size: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 100%;
+}
+input{
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media only screen and (max-width:991px){
+    .main{
+        width: 100%;
+        margin-top: 50%;
+    }
+}
