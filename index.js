@@ -20,8 +20,7 @@ app.get('/', function(req,res){
             var id = advice.slip.id
             res.render('index',{
                 number_id:'ADVICE #' + id,
-                advice:adv,
-                curse: corse()
+                advice:adv
             });
         })
     })
